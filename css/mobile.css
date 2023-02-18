@@ -1,0 +1,7 @@
+@media (max-width: 555px) {
+
+    .card {
+        width: 90%;
+        padding: 25px 5%;
+    }
+}
