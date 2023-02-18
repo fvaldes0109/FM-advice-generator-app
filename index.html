@@ -6,6 +6,8 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./css/styles.css">
+
+  <script src="./js/index.js"></script>
   
   <title>Frontend Mentor | Advice generator app</title>
 
@@ -17,15 +19,15 @@
 <body>
   <main>
     <div class="card">
-      <p class="advice-num">ADVICE #X</p>
-      <p class="advice">"Voluptate et consequat adipisicing officia cupidatat. Excepteur irure ea est irure."</p>
+      <p class="advice-num"></p>
+      <p class="advice">Loading...</p>
       <div class="divider">
         <picture>
           <img src="./images/pattern-divider-desktop.svg" alt="Divider" aria-hidden="false">
         </picture>
       </div>
       <div class="button-container">
-        <button><img src="./images/icon-dice.svg" alt="Next"></button>
+        <button onclick="getAdvice()"><img src="./images/icon-dice.svg" alt="Next"></button>
       </div>
     </div>
   </main>
